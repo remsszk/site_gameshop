@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life is Strange Fanmade</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/3c3e82fc0d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Life Is Strange</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-game">Sobre o jogo</a>
+                    </li>
+                    <li>
+                        <a href="#characters">Personagens</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about-game">
+        <div class="container">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202105/1412/bJYCCmymxvgviuuolfOx8srg.png" alt="Life is strange" />
+            <div>
+                <h2>Sobre o jogo</h2>
+                <p>Life is Strange é um jogo eletrônico episódico de aventura dividido em cinco partes desenvolvido pelo estúdio francês DONTNOD Entertainment e publicado pela Square Enix, revolucionando a história de jogos baseadas em escolhas e consequências. Os desenvolvedores descrevem o jogo como uma história nostálgica que acompanha a transição da adolescência à vida adulta e combina o presente com o passado, criando momentos marcantes em cada episódio.</p>
+                <p>O jogo aborda problemas do mundo real e situações problemáticas como depressão, bullying, suicidio, doenças mentais e perda de entes queridos.</p>
+                <ul class="game-list">
+                    <li><i class="fa-brands fa-steam" alt="steam"></i></li>
+                    <li><i class="fa-brands fa-xbox" alt="xbox"></i></li>
+                    <li><i class="fa-brands fa-playstation" alt="playstation"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="characters">
+        <div class="container">
+            <h2>Personagens</h2>
+            <div class="character-grid">
+                <div class="character-card">
+                    <img src="https://preview.redd.it/all-max-caulfield-in-life-is-strange-2015-and-life-is-v0-7wavpo08el5d1.png?width=640&crop=smart&auto=webp&s=985839e4a31432f1799bbf1f87ec3248c9c2c057" alt="Max_Caulfield" />
+                    <h3>Max Caulfield</h3>
+                    <p>Maxine Caulfield, mais conhecida como Max, é a protagonista jogável de Life is Strange. Ela é uma aspirante a fotógrafa com 18 anos de idade na Blackwell Academy.</p>
+                </div>
+                <div class="character-card">
+                    <img src="https://i.redd.it/all-who-is-your-favorite-life-is-strange-main-character-v0-f3g481270azc1.jpg?width=500&format=pjpg&auto=webp&s=bb9679fd03a04650bfecdd7f7d6449c40dc08694" alt="Chloe Price"/>
+                    <h3>Chloe Price</h3>
+                    <p>Chloe Elizabeth Price é a deuteragonista de Life is Strange. Ela era a melhor amiga de Max Caulfield antes da mesma se mudar para Seattle, deixando Chloe em Arcadia Bay, Oregon.</p>
+                </div>
+                <div class="character-card">
+                    <img src="https://cdn.lifeisstrangefans.com/uploads/media/2022/07/002-Rachel-Amber-Blue-Plaid-1664294017-452242161-320x320.jpg" alt="Rachel Amber"/>
+                    <h3>Rachel Amber</h3>
+                    <p>Rachel Amber é uma estudante popular da Blackwell Academy que desaparece misteriosamente antes dos eventos de Life is Strange. Ela era muito próxima de Chloe Price e tinha grandes sonhos de deixar Arcadia Bay para buscar uma vida melhor em Los Angeles.</p>
+                </div>
+                <div class="character-card">
+                    <img src="https://preview.redd.it/no-spoilers-why-did-kate-become-one-of-the-most-beloved-v0-7ohptig78nkb1.png?auto=webp&s=8566e0a3391bb81e11b1bed36c1fc618e41485b8" alt="Kate Marsh"/>
+                    <h3>Kate Marsh</h3>
+                    <p>Kate Marsh é uma estudante da Blackwell Academy conhecida por sua natureza gentil e religiosa. Ela enfrenta bullying severo e luta contra depressão, sendo uma das personagens centrais em uma das decisões mais impactantes que Max precisa tomar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feedback-form">
+        <div class="container">
+            <h2>Compartilhe sua experiência</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="favorite-character">Personagem favorito:</label>
+                    <select id="favorite-character" name="favorite-character" required>
+                        <option value="">Selecione</option>
+                        <option value="max">Max Caulfield</option>
+                        <option value="chloe">Chloe Price</option>
+                        <option value="rachel">Rachel Amber</option>
+                        <option value="kate">Kate Marsh</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Avaliação do jogo (1 a 5):</label>
+                    <input type="range" id="rating" name="rating" min="1" max="5">
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comentários adicionais:</label>
+                    <textarea id="comments" name="comments" rows="5" placeholder="Compartilhe suas impressões sobre o jogo..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
